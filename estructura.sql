@@ -153,11 +153,11 @@ insert into practica_coches.modelo (id_modelo, id_marca, descripcion_modelo) val
 
 --COCHE
 
-insert into practica_coches.coche  (id_coche, id_color, id_modelo, matricula, kilometros_totales, fecha_compra) values (1, 4, 1, '4545CLD', 10000, '18/03/2019');
-insert into practica_coches.coche  (id_coche, id_color, id_modelo, matricula, kilometros_totales, fecha_compra) values (2, 2, 2, '5631LMN', 13000, '25/01/2021');
-insert into practica_coches.coche  (id_coche, id_color, id_modelo, matricula, kilometros_totales, fecha_compra) values (3, 3, 3, '2356NVB', 18500, '03/09/2017');
-insert into practica_coches.coche  (id_coche, id_color, id_modelo, matricula, kilometros_totales, fecha_compra) values (4, 5, 4, '7895SDG', 48700, '02/05/2015');
-insert into practica_coches.coche  (id_coche, id_color, id_modelo, matricula, kilometros_totales, fecha_compra) values (5, 1, 5, '8883LMN', 23583, '02/01/2016');
+insert into practica_coches.coche  (id_coche, id_color, id_modelo, matricula, kilometros_totales, fecha_compra) values (1, 4, 1, '4545CLD', 10000, '2019-03-18');
+insert into practica_coches.coche  (id_coche, id_color, id_modelo, matricula, kilometros_totales, fecha_compra) values (2, 2, 2, '5631LMN', 13000, '2021-01-25');
+insert into practica_coches.coche  (id_coche, id_color, id_modelo, matricula, kilometros_totales, fecha_compra) values (3, 3, 3, '2356NVB', 18500, '2017-09-03');
+insert into practica_coches.coche  (id_coche, id_color, id_modelo, matricula, kilometros_totales, fecha_compra) values (4, 5, 4, '7895SDG', 48700, '2015-05-02');
+insert into practica_coches.coche  (id_coche, id_color, id_modelo, matricula, kilometros_totales, fecha_compra) values (5, 1, 5, '8883LMN', 23583, '2016-01-02');
 
 --ASEGURADORA
 insert into practica_coches.aseguradora  (id_aseguradora,descripcion_aseguradora) values (1, 'mafre');
@@ -182,8 +182,8 @@ insert into practica_coches.moneda  (id_moneda,descripcion_moneda, simbolo) valu
 
 
 --REVISION
-insert into practica_coches.revision  (id_revision, id_coche, id_moneda, fecha_revision, kilometros_revision, importe) values (1, 1, 1, '15/05/2016', 8525, 235);
-insert into practica_coches.revision  (id_revision, id_coche, id_moneda, fecha_revision, kilometros_revision, importe) values (2, 2, 2, '18/06/2020', 10478, 185);
-insert into practica_coches.revision  (id_revision, id_coche, id_moneda, fecha_revision, kilometros_revision, importe) values (3, 3, 3, '28/07/2021', 15469, 150);
-insert into practica_coches.revision  (id_revision, id_coche, id_moneda, fecha_revision, kilometros_revision, importe) values (4, 4, 4, '15/05/2016', 38693, 5603.33);
-insert into practica_coches.revision  (id_revision, id_coche, id_moneda, fecha_revision, kilometros_revision, importe) values (5, 5, 5, '10/10/2020', 20456, 6329.24);
+insert into practica_coches.revision  (id_revision, id_coche, id_moneda, fecha_revision, kilometros_revision, importe) values (1, 1, 1, '2016-05-15', 8525, 235);
+insert into practica_coches.revision  (id_revision, id_coche, id_moneda, fecha_revision, kilometros_revision, importe) values (2, 2, 2, '2020-06-18', 10478, 185);
+insert into practica_coches.revision  (id_revision, id_coche, id_moneda, fecha_revision, kilometros_revision, importe) values (3, 3, 3, '2021-07-28', 15469, 150);
+insert into practica_coches.revision  (id_revision, id_coche, id_moneda, fecha_revision, kilometros_revision, importe) values (4, 4, 4, '2016-05-15', 38693, 5603.33);
+insert into practica_coches.revision  (id_revision, id_coche, id_moneda, fecha_revision, kilometros_revision, importe) values (5, 5, 5, '2020-10-10', 20456, 6329.24);
